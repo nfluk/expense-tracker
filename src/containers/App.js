@@ -12,7 +12,7 @@ function App() {
   }, []);
 
   return (
-    <div className="flex bg-slate-100">
+    <div className="flex bg-slate-100 ">
       <div className="flex flex-col max-w-2xl m-auto">
         <Nav />
         <ExpenseList products={products} />
